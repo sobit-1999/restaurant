@@ -1,0 +1,74 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body{
+  background-color: black;
+  color: rgb(228, 218, 199);
+  min-width: 600px;
+  width: 100%;
+}
+.header>a{
+font-size: 90px;
+}
+a{
+  text-decoration: none;
+  color: rgb(141, 166, 27);
+}
+
+.App {
+  text-align: center;
+  min-width: 600px;
+width: 100%;
+}
+.card{
+  display: inline-block;
+  margin-left: 30px;
+  
+}
+.login {
+  width:  500px;
+  border-radius: 5px;
+  padding: 5% 0;
+  background-color: rgb(228, 213, 213);
+ border: 1px solid snow;
+  margin:25px 33%;
+}
+
+
+.img{
+  border-radius: 5px 5px 0 0;
+  transition: 2s;
+}
+.name-sum{
+  font-size: 20px;
+  background-color: rgb(49, 49, 48);
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+}
+.name-sum>h4{
+   margin-top: 20px;
+}
+.xodim-mijoz-habar {
+  /* position: absolute; */
+  animation: jumping 0.1s 0.1s ease infinite;
+  transition: 2s
+}
+
+@keyframes jumping {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(2px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
+}
